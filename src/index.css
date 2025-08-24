@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  /* --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 976px; */
+  --font-general: general, sanf-serif;
+  --color-twitter-blue: #1DA1F2;
+}
+
+@utility nav-hover-btn {
+  @apply relative ms-10 font-general text-xs uppercase text-black after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
+}
