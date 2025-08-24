@@ -10,3 +10,8 @@ export const SOCIAL_LINKS_DARK = [
   { label: "GitHub", href: "https://github.com/kallial/", src:"/img/github-black.svg", alt:"GitHub" },
   { label: "LinkedIn", href: "#", src:"/img/linkedin-black.svg", alt:"LinkedIn" },
 ];
+
+export const SOCIAL_LINKS_LIGHT = [
+  { label: "GitHub", href: "https://github.com/kallial/", src:"/img/github-white.svg", alt:"GitHub" },
+  { label: "LinkedIn", href: "#", src:"/img/linkedin-white.svg", alt:"LinkedIn" },
+];

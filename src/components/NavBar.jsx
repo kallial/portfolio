@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import MobileNav from "./MobileNav";
 import DesktopNav from "./DesktopNav";
 
 const NavBar = () => {
@@ -31,6 +32,7 @@ const NavBar = () => {
           </div>
             <DesktopNav handleLinkClick={handleLinkClick} />
           <div className="lg:hidden">
+            <MobileNav handleLinkClick={handleLinkClick} />
           </div>
         </nav>
       </header>
